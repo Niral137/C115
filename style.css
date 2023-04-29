@@ -1,0 +1,27 @@
+#heading{
+    background-color:plum;
+    
+}
+h3{
+    font-size: 35px !important;
+}
+
+#snapshot{
+    background-color: palegreen;
+    font-size: 25px;
+}
+
+canvas{
+    animation-name: hello;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes hello {
+    from{box-shadow: 1px 1px 38px darkred;}
+    to{box-shadow: 1px 1px 38px lightskyblue;}    
+}
+body{
+    background-position: center;
+    background-size: cover;
+}
